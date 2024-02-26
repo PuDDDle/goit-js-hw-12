@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <form class="form">
-      <input type="text" name="search" />
-      <button type="submit">Search</button>
-    </form>
-    <div class="container">
-      <ul class="gallery"></ul>
 
-      <button class="btn" type="button">Load more</button>
-      <span class="loader"></span>
-    </div>
-    <script type="module" src="./main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanilla App Template</title>
+  <link rel="stylesheet" href="./css/my.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <form action="" class="form">
+      <input class="input" type="text" name="input" placeholder="Search images..." />
+      <button class="btn" type="submit">Search</button>
+    </form>
+    <ul class="gallery"></ul>
+    <button type="button" class="btn btn-load" style="display: none">
+      Load more
+    </button>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
 </html>

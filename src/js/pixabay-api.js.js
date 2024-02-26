@@ -5,7 +5,7 @@ export async function fetchPhotos(userQuery, page, perPage) {
     page: page,
     per_page: perPage,
   });
-  const apiKey = '10232217-e697c3d56777d20dc0cbe8fb5';
+  const apiKey = '42475549-5790b83c0c5f71da4ba61553f';
   const query = userQuery;
   const response = await axios.get(
     `https://pixabay.com/api/?key=${apiKey}&q=${encodeURIComponent(
